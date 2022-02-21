@@ -14,7 +14,7 @@ private static final Logger LOG=LogManager.getLogger(App.class);
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        String message = "Hello World";
+        String message = "Hello World ";
         LOG.debug(message+"Will be printed On Debug");
         LOG.info(message+"Will be Printed on Info");
         LOG.warn(message+"Will be Printed On Fatal");
